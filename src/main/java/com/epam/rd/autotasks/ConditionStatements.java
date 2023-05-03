@@ -4,8 +4,15 @@ import java.rmi.UnexpectedException;
 
 class ConditionStatements {
     public static int task1(int n) {
-        //TODO: Delete line below and write your own solution
-        throw new UnsupportedOperationException();
+
+         if(n == 0){
+             return 0;
+         }else if(n<0){
+             return n*-1;
+         }else{
+             return n*n;
+         }
+
     }
 
 
